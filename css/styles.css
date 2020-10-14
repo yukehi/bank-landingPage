@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+.nav-bar{
+  display: flex;
+  flex-flow:row;
+  background-color: white;
+  position: relative;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  margin: 1% 0 0 10%;
+}
+.nav-btn{
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  margin: 1% 0 0 20%;
+
+}
+
+.btn-item{
+  margin: 0 0 0 5%;
+  flex:1;
+}
+
+.btn-item:hover{
+  border-bottom: medium;
+  border-bottom-color: rgba(132,225,168,1);
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+.btn-box{
+  margin: 0.5% 0 1% 20%;
+}
+.btn-invite{
+
+  flex:1;
+  background: rgb(132,225,168);
+  background: linear-gradient(90deg, rgba(132,225,168,1) 0%, rgba(129,213,224,1) 100%);
+  border-width: 0;
+  border-radius: 25px;
+  color:white;
+  width: 165px;
+  height: 45px;
+
+
+}
+
+.continor{
+  display: flex;
+  flex-flow: row;
+  background-color: #fafafa;
+  position: relative;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  height: 600px
+}
+
+.left-side{
+  margin: 10% 15% 0 15%;
+}
+
+.mockups{
+  position: relative;
+  z-index: -1;
+  bottom: 150px;
+}
+
+.continor2{
+  display: flex;
+  flex-flow: column;
+  background-color: #f4f5f7;
+  position: relative;
+  z-index: -2;
+  height: 600px;
+
+}
+
+.title{
+  margin: 0 0 5% 15% ;
+}
+.cards{
+  display: flex;
+  flex-flow: row;
+  margin: 0 15% 6% 15%;
+}
+
+.card{
+  margin: 0 3% 0 0;
+}
+
+.continor3{
+  background-color: white;
+  margin: 0;
+}
+
+.card-style{
+  background-color: #fafafa;
+  border-radius: 15px;
+}
+
+.articale-img{
+  width: 280px;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px ;
+}
+
+.contant{
+  margin: 0 5% 0 5%;
+}
+.contionr-bottom{
+  display: flex;
+  flex-flow: row;
+  background-color: #2d314e;
+}
+
+.icons-side{
+  flex:1;
+  margin: 2.5% 0 0 15%;
+}
+.soical{
+  margin: 10% 0 0 0 ;
+}
+.icon{
+  fill:rgb(132,225,168);
+}
+
+.mnue{
+  display: flex;
+  flex-flow: row;
+  flex: 2;
+  margin: 2.5% 0 0 10%;
+  color:white;
+
+
+}
+.list-colum{
+  list-style: none;
+}
+.button{
+  flex: auto;
+  margin: 3% 0 2% 0;
+  color:white;
+}
+.item:hover {
+  color:rgb(132,225,168);
+}
